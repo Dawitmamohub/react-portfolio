@@ -11,16 +11,7 @@ const Footer = () => {
             <p>Front End Developer passionate about creating innovative web solutions and bringing ideas to life.</p>
           </div>
           <div className="footer-section">
-            <h4>Quick Links</h4>
-            <ul>
-              <li><a href="#about">About</a></li>
-              <li><a href="#skills">Skills</a></li>
-              <li><a href="#projects">Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </div>
-          <div className="footer-section">
-            <h4>Connect</h4>
+
             <div className="social-icons">
               <a href="https://github.com/Dawitmamohub" target="_blank" rel="noopener noreferrer" className="social-icon">GitHub</a>
               <a href="https://linkedin.com/in/dawit-mamo-40824520a" target="_blank" rel="noopener noreferrer" className="social-icon">LinkedIn</a>

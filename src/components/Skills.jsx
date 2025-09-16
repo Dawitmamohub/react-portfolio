@@ -13,6 +13,7 @@ const Skills = () => {
     <section id="skills" className="skills">
       <div className="container">
         <h2 className="section-title">Skills & Technologies</h2>
+        <p>Here are the technologies and tools I work with to create amazing web experiences.</p>
         <div className="skills-grid">
           {skills.map((skill, index) => (
             <div key={index} className="skill-item">
@@ -21,9 +22,9 @@ const Skills = () => {
                 <span className="skill-percentage">{skill.level}%</span>
               </div>
               <div className="skill-bar">
-                <div 
-                  className="skill-progress" 
-                  style={{ 
+                <div
+                  className="skill-progress"
+                  style={{
                     width: `${skill.level}%`,
                     backgroundColor: skill.color
                   }}

@@ -5,20 +5,20 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce application built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'Stripe'],
-      github: '#',
-      demo: '#',
+      title: 'Travel Planner App',
+      description: 'A front end Travel Planner App .',
+      technologies: ['React', 'Node.js',  'Javascript', 'Stripe'],
+      github: 'https://github.com/Dawitmamohub/travel-planning-app',
+      demo: 'https://github.com/Dawitmamohub',
       image: '🛒'
     },
     {
       id: 2,
-      title: 'Task Management App',
+      title: 'Task manager App',
       description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
       technologies: ['React', 'Firebase', 'Material-UI', 'React DnD'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/Dawitmamohub',
+      demo: 'https://github.com/Dawitmamohub',
       image: '📋'
     },
     {
@@ -26,8 +26,8 @@ const Projects = () => {
       title: 'Weather Dashboard',
       description: 'A responsive weather application that provides current weather data and forecasts for locations worldwide with beautiful visualizations.',
       technologies: ['React', 'OpenWeather API', 'Chart.js', 'CSS3'],
-      github: '#',
-      demo: '#',
+      github: 'https://github.com/Dawitmamohub',
+      demo: 'https://github.com/Dawitmamohub',
       image: '🌤️'
     },
   ];

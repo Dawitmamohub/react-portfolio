@@ -5,6 +5,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 function App() {
@@ -12,12 +13,21 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        <Hero />
-        <Skills />
-        <Projects />
-        <Contact />
+        <section className="fade-in">
+          <Hero />
+        </section>
+        <section className="fade-in">
+          <Skills />
+        </section>
+        <section className="fade-in">
+          <Projects />
+        </section>
+        <section className="fade-in">
+          <Contact />
+        </section>
       </main>
       <Footer />
+      <ScrollToTop />
     </div>
   );
 }

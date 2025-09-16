@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import devPhoto from '../assets/Dev.jpg';
 
 const Hero = () => {
   return (
@@ -19,9 +20,9 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-image">
-          <div className="image-placeholder">
-            <span>👨‍💻</span>
-        
+          <div className="image-container">
+<img src={devPhoto} alt="Dawit - Front End Developer" className="profile-photo" loading="lazy" />
+            <div className="image-overlay"></div>
           </div>
         </div>
       </div>
