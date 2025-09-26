@@ -7,6 +7,7 @@ const Skills = () => {
     { name: 'JavaScript', level: 85, color: '#f7df1e' },
     { name: 'HTML/CSS', level: 95, color: '#e34f26' },
     { name: 'Git', level: 85, color: '#f05032' },
+    
   ];
 
   return (
